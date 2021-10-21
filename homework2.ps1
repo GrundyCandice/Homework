@@ -1,0 +1,21 @@
+@(curl -H "application/json" http://127.0.0.1:8088/hash/1 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/2 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/3 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/4 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/5 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/6 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/7 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/8 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/9 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/10 )
+	Start-Sleep -s 2
+	@(curl -H "application/json" http://127.0.0.1:8088/hash/11 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/12 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/13 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/14 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/15 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/16 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/17 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/18 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/19 |
+	curl -H "application/json" http://127.0.0.1:8088/hash/20 )
