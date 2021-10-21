@@ -1,0 +1,21 @@
+@(curl -X POST -H "application/json" -d '{\"password\":\"angrymonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrydonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angryzonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrygibbon\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrybeavis\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrybadger\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrychimp\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrymonkeyboy\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrygorilla\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angryferret\"}' http://127.0.0.1:8088/hash )
+	Start-Sleep -s 2
+	@(curl -X POST -H "application/json" -d '{\"password\":\"angrymonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrydonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angryzonkey\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrygibbon\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrybeavis\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrybadger\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrychimp\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrymonkeyboy\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angrygorilla\"}' http://127.0.0.1:8088/hash |
+	curl -X POST -H "application/json" -d '{\"password\":\"angryferret\"}' http://127.0.0.1:8088/hash )
